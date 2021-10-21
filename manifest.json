@@ -83,8 +83,8 @@
         "sizes": "144x144"
       },
       {
-        "src": "icons/favicon-512x512.jpg",
-        "type": "image/jpg",
+        "src": "icons/favicon-512x512.png",
+        "type": "image/png",
         "sizes": "512x512"
       }
     ],
