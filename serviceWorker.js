@@ -31,17 +31,3 @@ self.addEventListener("install", function (event) {
     })
   );
 });
-
-self.addEventListener("fetch", (event) => {
-  console.log("Request para o recurso:", event.request.url);
-  event.respondWith(
-    caches.match(event.request).then(function (response) {
-      if (response) {
-        console.log(`Recurso ${event.request.url} encontrado no cache`);
-        return response;
-      }
-      console.log(`Disparando request para ${event.request.url}`);
-      return fetch(event.request);
-    })
-  );
-});
