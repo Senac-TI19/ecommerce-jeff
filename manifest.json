@@ -7,7 +7,7 @@
     "orientation": "any",
     "scope": "/ecommerce-jeff",
     "short_name": "Ecommerce Jeff",
-    "start_url": "/",
+    "start_url": "/ecommerce-jeff/",
     "theme_color": "#ad1fb7",
     "categories": [],
     "screenshots": [],
