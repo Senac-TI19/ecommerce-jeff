@@ -1,6 +1,9 @@
 const cacheName = "cache-app-v1";
 
-const recursosCacheados = ["index.html", "index.js"];
+const recursosCacheados = [
+  "ecommerce-jeff/index.html",
+  "ecommerce-jeff/index.js",
+];
 
 self.addEventListener("install", function (event) {
   console.log("Service Worker instalado!");
