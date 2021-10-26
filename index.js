@@ -1,9 +1,7 @@
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", function () {
     this.navigator.serviceWorker
-      .register("/ecommerce-jeff/serviceWorker.js", {
-        scope: "/ecommerce-jeff/",
-      })
+      .register("/ecommerce-jeff/serviceWorker.js")
       .then(function (registro) {
         console.log("Service worker registrado com sucesso", registro);
       })
